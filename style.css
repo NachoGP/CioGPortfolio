@@ -116,7 +116,7 @@ h2{
 h3{
   font-size: .7em;
   font-weight: 400;
-  text-transform: uppercase; 
+  text-transform: uppercase;
   color:#d2e1dd;
   text-align: center;
 }
@@ -150,7 +150,7 @@ a:hover{
   padding: 0;
 }
 .flex-nav li{
-  flex: 3; 
+  flex: 3;
 }
 .flex-nav .social{
   flex:1;
@@ -175,12 +175,16 @@ section, footer, article{
   }
 }
 @media all and (max-width: 500px){
+  .portfolio{
+    width: 100%;
+  }
+
   .flex-nav li{
     flex-basis:100%;
   }
   .wrapper{
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
   }
 /*Flex-item*/
   .wrapper > *{
