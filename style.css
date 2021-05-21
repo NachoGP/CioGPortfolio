@@ -5,14 +5,20 @@ audio:not([controls]){display:none;height:0}
 html{font-size:100%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}
 html,button,input,select,textarea{font-family:sans-serif}
 body{margin:0}
+*{
+  font-family: 'KoHo', sans-serif;
+}
+a{
+  color: #f2f2f2;
+}
 a:focus{outline:thin dotted}
 a:active,a:hover{outline:0}
-h1{font-size:2em;margin:.67em 0}
-h2{font-size:1.5em;margin:.83em 0}
-h3{font-size:1.17em;margin:1em 0}
-h4{font-size:1em;margin:1.33em 0}
-h5{font-size:.83em;margin:1.67em 0}
-h6{font-size:.75em;margin:2.33em 0}
+h1{font-size:1.5em;margin:.67em 0}
+h2{font-size:1.3em;margin:.83em 0}
+h3{font-size:1em;margin:1em 0}
+h4{font-size:.83em;margin:1.33em 0}
+h5{font-size:.63em;margin:1.67em 0}
+h6{font-size:.5em;margin:2.33em 0}
 abbr[title]{border-bottom:1px dotted}
 b,strong{font-weight:bold}
 blockquote{margin:1em 40px}
@@ -107,15 +113,25 @@ flex-wrap: wrap;
 h1{
   color: #d2e1dd;
   text-align: center;
+  font-size:1.5em
 }
 h2{
   color:#d2e1dd;
   text-align: center;
   margin-bottom: 0;
+  font-size:1.3em
 }
 h3{
-  font-size: .7em;
-  font-weight: 400;
+  font-size: 1em!important;
+  font-weight: 600;
+  text-transform: uppercase;
+  color:#d2e1dd;
+  text-align: center;
+}
+h4{
+  font-size: 0.80em !important;
+  font-weight: 600;
+  margin-top: 1em !important;
   text-transform: uppercase;
   color:#d2e1dd;
   text-align: center;
@@ -125,7 +141,7 @@ p{
   color:$colour;
 }
 a{
-  color: #d2e1dd;
+  color: #f2f2f2 !important;
   font-weight: 100;
   font-size: $font-size;
   letter-spacing: 2px;
