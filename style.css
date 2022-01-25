@@ -60,7 +60,7 @@ table{border-collapse:collapse;border-spacing:0}
 body{
   font-family: 'Lato', serif;
   margin: 0;
-  background-image:linear-gradient(260deg, #2376ae 0%, #2a2aeb 100%);
+  background-image:linear-gradient(260deg, #f0f0f0 0%, #b7f9d0 100%);
 }
 $font-stack: 'Andale mono', serif;
 $pale: #d2e1dd;
@@ -85,16 +85,24 @@ $color: #d2e1dd;
     display: flex;
     flex-wrap: wrap;
   justify-content: center;
+  background: #f2f2f2;
 }
 .portfolio span{
   font-size: 10px;
-  color:#f2f2f2;
+  color:#484848;
   line-height: 1px;
   text-align: right;
 }
 .portfolio{
   margin: 1.5%;
-  border: 1px solid #2376ae;
+  border: none;
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 3px 2px 2px rgb(189, 189, 189);
+}
+.portfolio:hover{
+  box-shadow: 6px 4px 4px rgb(189, 189, 189);
+
 }
 .portfolio img{
   max-width: 15em;
@@ -111,12 +119,12 @@ flex-wrap: wrap;
   font-size: 0.7em;
 }
 h1{
-  color: #d2e1dd;
+  color: #484848;
   text-align: center;
   font-size:1.5em
 }
 h2{
-  color:#d2e1dd;
+  color:#484848;
   text-align: center;
   margin-bottom: 0;
   font-size:1.3em
@@ -125,7 +133,7 @@ h3{
   font-size: 1em!important;
   font-weight: 600;
   text-transform: uppercase;
-  color:#d2e1dd;
+  color:#484848;
   text-align: center;
 }
 h4{
@@ -133,7 +141,7 @@ h4{
   font-weight: 600;
   margin-top: 1em !important;
   text-transform: uppercase;
-  color:#d2e1dd;
+  color:#484848;
   text-align: center;
 }
 p{
@@ -141,7 +149,7 @@ p{
   color:$colour;
 }
 a{
-  color: #f2f2f2 !important;
+  color: #484848 !important;
   font-weight: 100;
   font-size: $font-size;
   letter-spacing: 2px;
@@ -151,7 +159,7 @@ a{
     display: inline-block;
     width: 100%;
     text-align: center;
-    transition:all 0.5s;
+    transition:all 0.5s;ñ-
 }
 a:hover{
   background: rgba(0,0,0,0.3);
@@ -176,10 +184,10 @@ a:hover{
 }
 section, footer, article{
   text-align: center;
-  background: rgba(0,0,0,0.2);
+  background: rgba(0,0,0,0.10);
   padding: 20px;
   margin:20px 0;
-  color: white;
+  color: #484848;
   font-weight: 100;
 }
 @media all and (max-width:1000px){
